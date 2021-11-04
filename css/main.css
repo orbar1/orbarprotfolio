@@ -38,6 +38,7 @@ header {
 }
 
 header .logo {
+  font-size: 2.2em;
   color: #00ffff;
   font-weight: bold;
 }
@@ -127,9 +128,11 @@ section {
 .featured-desc {
   color: #3b3b3b;
   margin-bottom: 3em;
-  font-size: 0.85;
+  font-size: 1.2em;
   line-height: 1.8em;
   font-weight: 500;
+  text-align: center;
+  display: inline;
 }
 
 .skills {
@@ -141,6 +144,8 @@ section {
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 2em;
+  text-align: center;
+  height: 200px;
 }
 
 .skills-container ul li .icon-container {
@@ -152,15 +157,15 @@ section {
 }
 
 .skills-container ul li .icon-container.one {
-  width: 50px;
+  width: 40px;
 }
 
 .skills-container ul li .icon-container.two {
-  width: 100px;
+  width: 125px;
 }
 
 .skills-container ul li .icon-container.three {
-  width: 60px;
+  width: 95px;
 }
 
 .skills-container ul li .skill-title {
@@ -259,7 +264,8 @@ section {
     float: right;
   }
   .social-header img {
-    width: 30px;
+    width: 50px;
+    padding: 2em;
   }
   .hero {
     display: -ms-grid;
@@ -320,6 +326,9 @@ section {
   }
   .hero .content {
     padding: 9em 20em 6em 20em;
+  }
+  .inner {
+    margin-right: 300px;
   }
 }
 
